@@ -1,0 +1,130 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+   
+   z-index: 100;
+   left: 0;
+   top: 0;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.hamburger-menu{
+    height: 24px;
+    margin: 0 24px;
+
+}
+.youtube-logo{
+    height: 20px;
+}
+
+.middle-section{
+    
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 30px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    
+}
+.search-bar{
+    flex: 1;
+    width: 0;
+    height:40px ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+.search{
+    width: 50px;
+    height: 44px;
+    border: none;
+    background-color: white;
+    border-left: none;
+    border: 1px solid gray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+.voice-search-icon{
+    padding: 10px;
+    width: 50px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(244, 244, 244);
+}
+.voice-search-icon:hover{
+    cursor: pointer;
+}
+
+.right-section{
+   
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.create{
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 90px;
+    
+    
+    border-radius: 50px;
+}
+.create:hover{
+    cursor: pointer;
+}
+.create p{
+    font-size: 14px;
+   
+}
+.new{
+    width:15px;
+    margin-right: 10px;
+}
+.notify{
+    width: 30px;
+}
+.new-notify{
+    position: relative;
+}
+.notify-count{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background-color: red;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 100%;
+    font-family: roboto, Arial;
+    font-size: 11px;
+    font-weight: 500;
+}
+.channel-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.channel-pic:hover{
+    cursor: pointer;
+}
